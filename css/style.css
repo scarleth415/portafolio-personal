@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,200i,300,300i,400,500,600,600i,700,800,900&display=swap');
+
+body{
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New;	
+	color: #000000;
+}
+
+
+
+#menu{
+	background-color: #4B1B4C;
+}
+
+#acerca{
+	background-image: url(../img/scarleth.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:500px 0;
+	width: 300px 0;
+	height: 400px 0;
+}
+
+#acerca h1{
+	color: #FFFFFF;
+	font-size: 100px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 250px;
+	margin-bottom: 40px;
+}
+
+#acerca h3{
+	color: #6FE1F8;
+	font-size: 45px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h6{
+	color: #6FE1F8;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+#acerca p{
+	color: #7D0AFC;
+	font-size: 20px;
+	font-weight: 250;
+	text-align: center;
+	top: 80%;
+}
+
+#servicios{
+	background-color: #85CEE0;
+	padding: 110px;
+}
+
+.title{ 
+	color: #5160D3;
+	text-align: center;
+	font-weight: 600;
+	font-size: 55px;
+	margin-bottom: 15px;
+}
+
+.title-dos{ 
+	color: #5160D3;
+	text-align: center;
+	font-weight:600;
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+
+.subtitle{ 
+	text-align: center;
+	font-weight: 300;
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.iconos i{
+	font-size: 60px;
+	color: #4B1B4C;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#servicios h4{
+	font-weight:bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#servicios p{
+	text-align: center;
+}
+
+.work-info{
+	position: relative;
+	overflow: hidden;
+}
+
+.layer-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #5160D3;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.3s ease-out;
+	z-index: 100;
+}
+
+.work-info .bg-green{
+	position: absolute;
+	top: 0;
+	background-color: #5160D3;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	opacity: 0;
+}
+.work-info:hover .layer-text,
+.work-info:hover .bg-green{
+	opacity: 1;
+	transition: all 0.3s ease-in;
+}
+
+.layer-text a,
+.cintillo a{
+	color: #fff;
+}
+.overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	background-color:rgba(0,0,0,0.40);
+	z-index: 100;
+}
+
+.cintillo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: #28D1A2;
+	color: #fff;
+	text-align: center;
+	z-index: 100;
+	opacity: 0;
+}
+
+.cintillo h5{
+	margin-bottom: 0;
+}
+
+.work-info:hover .cintillo{
+	opacity: 1;
+	transition: all	0.3s ease-in;
+}
+.layer-icon{
+	position: absolute;
+	top:0;
+	right: 10px;
+	color: #fff;
+}
+
+#proyecto{
+	background-color: #fff;
+	padding: 110px;
+}
+
+#contacto{
+	background-image:url(../img/naturaleza-medio-ambiente-e1505407093531.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding:150px 0;
+}
+#contacto h4{
+	color: #000;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+#contacto p{
+	color: #000;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.btn-info-hover{
+	background-color: #5160D3;
+	color: #1A0D90;
+}
+
+
+
+
+footer{
+	background-color: #1A0D90;
+	padding: 50px;
+}
+
+footer p{
+	text-align: center;
+	font-weight: 100;
+	font-size: 15px;
+	color: #1A0D90;
+}
+
+
+	
+	.title{
+		text-align: center;
+		font-size: 25px;
+	
+	}
+	
+	#servicios p{
+	text-align:justify;
+}
+	.parrafo{
+		display: none;
+	}
+	.face{
+		align-content: center;
+		margin-bottom: auto;
+	}
+	.insta{
+		align-content: center;
+		margin-bottom: auto;}
